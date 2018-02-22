@@ -1,0 +1,16 @@
+﻿UserInput, 	Input
+			Store X
+            Add 1
+            JnS Print
+            Skipcond 400
+            Jump UserInput
+            Halt
+X, 			HEX 0 
+
+Print, 		HEX 0
+			Load X
+            Store X
+            Skipcond 400
+			Output
+            JumpI Print
+
